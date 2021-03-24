@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f5cf71c-0806-476a-9bfd-877a3e082c8f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mrorrLGTwbcidGjxk1Bj4vnn5s" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\win7系统文件\java相关文件\java整合学习细化学习\IDE项目练习文件夹\javaEE项目\guli\guliframeworkcommon\src\main\java\com\guli\common\utils" />
+      <recent name="E:\win7系统文件\java相关文件\java整合学习细化学习\IDE项目练习文件夹\javaEE项目\guli\gulimicroserviceedu\src\main\java\com\guli\edu\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.guli.edu.util" />
+      <recent name="com.guli.edu.controller" />
+      <recent name="com.guli.edu.service.impl" />
+      <recent name="com.guli.edu.service" />
+      <recent name="com.guli.common.exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java整合学习细化学习\IDE项目练习文件夹\javaEE项目\guli\guliframeworkcommon\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EduApplication">
+    <configuration name="ExcelReadTest.testCellType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimicroserviceedu" />
+      <option name="PACKAGE_NAME" value="com.atgui.excelpoi" />
+      <option name="MAIN_CLASS_NAME" value="com.atgui.excelpoi.ExcelReadTest" />
+      <option name="METHOD_NAME" value="testCellType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelReadTest.testRead03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimicroserviceedu" />
+      <option name="PACKAGE_NAME" value="com.atgui.excelpoi" />
+      <option name="MAIN_CLASS_NAME" value="com.atgui.excelpoi.ExcelReadTest" />
+      <option name="METHOD_NAME" value="testRead03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelWriteTest.testWrite03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimicroserviceedu" />
+      <option name="PACKAGE_NAME" value="com.atgui.excelpoi" />
+      <option name="MAIN_CLASS_NAME" value="com.atgui.excelpoi.ExcelWriteTest" />
+      <option name="METHOD_NAME" value="testWrite03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelWriteTest.testWrite03BigData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimicroserviceedu" />
+      <option name="PACKAGE_NAME" value="com.atgui.excelpoi" />
+      <option name="MAIN_CLASS_NAME" value="com.atgui.excelpoi.ExcelWriteTest" />
+      <option name="METHOD_NAME" value="testWrite03BigData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gulimicroserviceedu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guli.edu.EduApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuliFrameworkParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="guli-framework-parent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guli.guliframeworkparent.GuliFrameworkParentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EduApplication" />
+        <item itemvalue="JUnit.ExcelReadTest.testRead03" />
+        <item itemvalue="JUnit.ExcelReadTest.testCellType" />
+        <item itemvalue="JUnit.ExcelWriteTest.testWrite03BigData" />
+        <item itemvalue="JUnit.ExcelWriteTest.testWrite03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f5cf71c-0806-476a-9bfd-877a3e082c8f" name="Default Changelist" comment="" />
+      <created>1610261272304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610261272304</updated>
+      <workItem from="1610261273969" duration="12799000" />
+      <workItem from="1610502988850" duration="1275000" />
+      <workItem from="1610511901783" duration="5083000" />
+      <workItem from="1610774300108" duration="4255000" />
+      <workItem from="1611380343485" duration="1731000" />
+      <workItem from="1611979498434" duration="8710000" />
+      <workItem from="1612753190230" duration="675000" />
+      <workItem from="1614410633345" duration="11756000" />
+      <workItem from="1614484979757" duration="2556000" />
+      <workItem from="1614497400447" duration="7047000" />
+      <workItem from="1614561517875" duration="798000" />
+      <workItem from="1614646942758" duration="5401000" />
+      <workItem from="1615091558521" duration="3223000" />
+      <workItem from="1615346061480" duration="680000" />
+      <workItem from="1615440569785" duration="2795000" />
+      <workItem from="1615768864122" duration="472000" />
+      <workItem from="1616568250550" duration="953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
