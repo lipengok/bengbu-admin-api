@@ -1,5 +1,6 @@
 package com.guli.edu.controller.admin;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.guli.common.vo.R;
 import com.guli.edu.entity.Subject;
 import com.guli.edu.service.SubjectService;
@@ -11,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
+import java.util.Map;
+
 @Api(description="课程分类管理")
 @CrossOrigin //跨域
 @RestController
@@ -37,6 +40,16 @@ public class SubjectAdminController {
     @GetMapping
     public R getUser(){
         List<Subject> list = subjectService.list(null);
+        return R.ok().data("list",list);
+    }
+
+    //根据父类的id查找所有的分类
+    @ApiOperation(value = "根据父类的id查找所有的分类")
+    @GetMapping("{id}")
+    public R getUserById(@PathVariable String id){
+        QueryWrapper<Subject> queryWrapper=new QueryWrapper();
+        queryWrapper.eq("parent_id",id);
+        List list=subjectService.listMaps(queryWrapper);
         return R.ok().data("list",list);
     }
 
