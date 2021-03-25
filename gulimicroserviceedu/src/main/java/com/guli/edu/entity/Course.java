@@ -23,7 +23,6 @@ import lombok.experimental.Accessors;
  * @author Helen
  * @since 2021-01-10
  */
-@Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("edu_course")
@@ -31,6 +30,8 @@ import lombok.experimental.Accessors;
 public class Course implements Serializable {
 
     private static final long serialVersionUID = 1L;
+    public static final String COURSE_DRAFT = "Draft";
+    public static final String COURSE_NORMAL = "Normal";
 
     @ApiModelProperty(value = "课程ID")
     @TableId(value = "id", type = IdType.ID_WORKER_STR)
@@ -75,5 +76,111 @@ public class Course implements Serializable {
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date gmtModified;
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getTeacherId() {
+        return teacherId;
+    }
+
+    public void setTeacherId(String teacherId) {
+        this.teacherId = teacherId;
+    }
+
+    public String getSubjectId() {
+        return subjectId;
+    }
+
+    public void setSubjectId(String subjectId) {
+        this.subjectId = subjectId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
+    public Integer getLessonNum() {
+        return lessonNum;
+    }
+
+    public void setLessonNum(Integer lessonNum) {
+        this.lessonNum = lessonNum;
+    }
+
+    public String getCover() {
+        return cover;
+    }
+
+    public void setCover(String cover) {
+        this.cover = cover;
+    }
+
+    public Long getBuyCount() {
+        return buyCount;
+    }
+
+    public void setBuyCount(Long buyCount) {
+        this.buyCount = buyCount;
+    }
+
+    public Long getViewCount() {
+        return viewCount;
+    }
+
+    public void setViewCount(Long viewCount) {
+        this.viewCount = viewCount;
+    }
+
+    public Long getVersion() {
+        return version;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Date getGmtCreate() {
+        return gmtCreate;
+    }
+
+    public void setGmtCreate(Date gmtCreate) {
+        this.gmtCreate = gmtCreate;
+    }
+
+    public Date getGmtModified() {
+        return gmtModified;
+    }
+
+    public void setGmtModified(Date gmtModified) {
+        this.gmtModified = gmtModified;
+    }
 }
