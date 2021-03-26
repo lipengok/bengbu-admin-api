@@ -1,5 +1,6 @@
 package com.guli.edu.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.guli.edu.entity.Video;
 import com.guli.edu.mapper.VideoMapper;
 import com.guli.edu.service.VideoService;
@@ -17,4 +18,20 @@ import org.springframework.stereotype.Service;
 @Service
 public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements VideoService {
 
+
+    @Override
+    public boolean removeByCourseId(String courseId) {
+        QueryWrapper<Video> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("course_id", courseId);
+        Integer count = baseMapper.delete(queryWrapper);
+        return null != count && count > 0;
+    }
+
+    @Override
+    public boolean getCountByChapterId(String chapterId) {
+        QueryWrapper<Video> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("chapter_id", chapterId);
+        Integer count = baseMapper.selectCount(queryWrapper);
+        return null != count && count > 0;
+    }
 }
