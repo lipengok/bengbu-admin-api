@@ -33,7 +33,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -156,7 +156,9 @@
       <workItem from="1615768864122" duration="472000" />
       <workItem from="1616568250550" duration="953000" />
       <workItem from="1616571171631" duration="4953000" />
-      <workItem from="1616633603056" duration="2917000" />
+      <workItem from="1616633603056" duration="21427000" />
+      <workItem from="1616721067112" duration="3225000" />
+      <workItem from="1616725694184" duration="921000" />
     </task>
     <servers />
   </component>

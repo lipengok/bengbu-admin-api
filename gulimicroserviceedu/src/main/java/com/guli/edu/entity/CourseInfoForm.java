@@ -20,6 +20,9 @@ public class CourseInfoForm implements Serializable {
     @TableId(value = "id", type = IdType.INPUT)
     private String id;
 
+    @ApiModelProperty(value = "课程专业父级ID")
+    private String subjectParentId;
+
     @ApiModelProperty(value = "课程讲师ID")
     private String teacherId;
 
@@ -115,5 +118,13 @@ public class CourseInfoForm implements Serializable {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getSubjectParentId() {
+        return subjectParentId;
+    }
+
+    public void setSubjectParentId(String subjectParentId) {
+        this.subjectParentId = subjectParentId;
     }
 }

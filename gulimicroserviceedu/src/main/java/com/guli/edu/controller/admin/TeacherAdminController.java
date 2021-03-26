@@ -38,7 +38,7 @@ public class TeacherAdminController {
     //获取所有讲师列表
     @ApiOperation(value = "所有讲师列表")
     @GetMapping
-    public R list(){
+    public R getList(){
         List<Teacher> list = teacherService.list(null);
         return R.ok().data("items", list);
     }

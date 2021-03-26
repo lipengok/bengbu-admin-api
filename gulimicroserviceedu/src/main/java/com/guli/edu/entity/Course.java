@@ -37,6 +37,9 @@ public class Course implements Serializable {
     @TableId(value = "id", type = IdType.ID_WORKER_STR)
     private String id;
 
+    @ApiModelProperty(value = "课程专业父级ID")
+    private String subjectParentId;
+
     @ApiModelProperty(value = "课程讲师ID")
     private String teacherId;
 
@@ -182,5 +185,13 @@ public class Course implements Serializable {
 
     public void setGmtModified(Date gmtModified) {
         this.gmtModified = gmtModified;
+    }
+
+    public String getSubjectParentId() {
+        return subjectParentId;
+    }
+
+    public void setSubjectParentId(String subjectParentId) {
+        this.subjectParentId = subjectParentId;
     }
 }
